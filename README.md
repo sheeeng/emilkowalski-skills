@@ -49,8 +49,7 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 
 ### Improve animations
 
-Inspired by [shadcn/improve](https://github.com/shadcn/improve): use your most capable model for the part where taste compounds. Understanding your codebase's motion, judging what's worth fixing, writing the spec — and hand execution to any agent, even a cheaper model.
-
+Inspired by [shadcn/improve](https://github.com/shadcn/improve): use your most capable model to audit animations in your project and hand the execution to cheaper models.
 `improve-animations` surveys your whole codebase (not a single diff), audits it across eight categories (purpose & frequency, easing & duration, physicality, interruptibility, performance, accessibility, cohesion, missed opportunities), and presents a prioritized findings table. Pick the ones you want, and it writes self-contained plans into `plans/` — exact files, exact curves, exact durations, plus a feel check — that another agent can execute without any context or taste of its own. It never touches your source code itself.
 
 ```
